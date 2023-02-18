@@ -15,16 +15,16 @@ function Body(){
 
 function Header(){
 	return (
-		<>
-		<header><img src="./reactlogo.png" width="60px"/></header>
-		<nav>
-			<ul>
+		<header>
+		<nav className="nav-bar">
+			<img src="./reactlogo.png" width="60px"/>
+			<ul className="nav-items">
 				<li>About</li>
 				<li>Pricing</li>
 				<li>More</li>
 			</ul>
 		</nav>
-		</>
+		</header>
 		)
 }
 
