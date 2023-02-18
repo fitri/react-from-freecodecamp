@@ -1,1 +1,2 @@
-ReactDOM.render(<h1>Hi</h1>, document.getElementById("root"));
+// ReactDOM(html to render, location to render)
+ReactDOM.render(<h1>Ohayou!</h1>, document.getElementById("root"));
