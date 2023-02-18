@@ -1,7 +1,6 @@
 function Body(){
 	return (
 		<div>
-			<img src="./reactlogo.png" width="60px"/>
 			<h1>Fun Facts about React</h1>
 			<ul>
 				<li>Was released in 2013</li>
@@ -14,7 +13,29 @@ function Body(){
 		)
 }
 
+function Header(){
+	return (
+		<header><img src="./reactlogo.png" width="60px"/></header>
+		)
+}
+
+function Footer(){
+	return (
+		<footer><p>© Copyright reserve 2023 for development purposes only</p></footer>
+		)
+}
+
+function Full(){
+	return(
+		<>
+			<Header />
+			<Body />
+			<Footer />
+		</>
+		)
+}
+
 ReactDOM.render(
-	<Body />,
+	<Full />,
 	document.getElementById("root")
 )
