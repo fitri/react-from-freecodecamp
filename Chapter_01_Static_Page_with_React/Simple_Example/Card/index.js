@@ -17,7 +17,7 @@ function Header(){
 	return (
 		<header>
 		<nav className="nav-bar">
-			<img src="./reactlogo.png" width="60px"/>
+			<img src="./reactlogo.png"/>
 			<ul className="nav-items">
 				<li>About</li>
 				<li>Pricing</li>
