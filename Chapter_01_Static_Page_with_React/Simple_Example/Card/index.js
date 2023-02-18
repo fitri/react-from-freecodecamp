@@ -21,7 +21,7 @@ function Header(){
 
 function Footer(){
 	return (
-		<footer><p>© Copyright reserve 2023 for development purposes only</p></footer>
+		<footer><small>© Copyright reserve 2023 for development purposes only.</small></footer>
 		)
 }
 
