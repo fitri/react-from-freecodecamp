@@ -1,6 +1,7 @@
 function Body(){
 	return (
 		<div>
+			<img src="./reactlogo.png" width="60px"/>
 			<h1>Fun Facts about React</h1>
 			<ul>
 				<li>Was released in 2013</li>
