@@ -1,3 +1,8 @@
+import React from "react"
+import ReactDOM from "react-dom"
+import "./asset/css/index.css"
+import reactlogo from "./asset/images/reactlogo.png"
+
 function Body(){
 	return (
 		<div>
@@ -17,7 +22,7 @@ function Header(){
 	return (
 		<header>
 		<nav className="nav-bar">
-			<img src="./reactlogo.png"/>
+			<img src={reactlogo}/>
 			<ul className="nav-items">
 				<li>About</li>
 				<li>Pricing</li>
@@ -35,16 +40,16 @@ function Footer(){
 }
 
 function Full(){
-	return(
-		<>
+	return (
+		<div>
 			<Header />
 			<Body />
 			<Footer />
-		</>
+		</div>
 		)
 }
 
 ReactDOM.render(
-	<Full />,
+	<Full/>,
 	document.getElementById("root")
 )
